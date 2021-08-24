@@ -1,6 +1,6 @@
 
 soc = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-soc.connect(('192.168.111.100',8088))
+soc.connect(('[IP address]',8088))
 
 
 def sendingMsg() :
