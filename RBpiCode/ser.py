@@ -38,7 +38,7 @@ try :
 	client = mqtt.Client()
 	client.on_message = on_message
 	client.on_connect = on_connect
-	client.connect("117.17.73.106",1883,60)
+	client.connect("[IP address]",1883,60)
 	print 'connect Success'
 	client.loop_forever()
 
