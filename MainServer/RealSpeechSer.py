@@ -29,7 +29,7 @@ def get_client(conn,addr,count):
 	print '########################################'
 	print 'from %s, user %d is Access'%(addr[0],cnt)
 
-	file = open("117.17.73.106.wav","wb")
+	file = open("[IP address].wav","wb")
 	while True:
 		data = conn.recv(1024)
 		if not data :
