@@ -3,7 +3,7 @@ import random
 import time
 
 mqttc = mqtt.Client("python_pub")
-mqttc.connect("192.168.111.100",1883)
+mqttc.connect("[IP address]",1883)
 
 def MqttPub(result):
 
