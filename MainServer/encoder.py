@@ -18,7 +18,7 @@ def progress(enc, bytes_written, samples_written, frames_written, total_frames_e
         oldprog = prog
 def startEncoder() :
 	print("Encoder.py  Process 1");
-	infile ='117.17.73.106.wav'
+	infile ='[IP address].wav'
 #	infile ='/home/ftpjhee/ftpjhee.wav'
 	outfile ='output' + '.flac'
 
